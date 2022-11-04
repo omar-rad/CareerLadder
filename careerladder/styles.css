@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+Stylesheet
+A stylesheet to be linked in all webpages.
+*/
+body {
+    margin: 0;
+    font: 30px arial;
+    text-align: center;
+    background-color: #2c3531;
+    color: #d1e8e2;
+}
+a.button {
+    padding: 20px 80px;
+    margin: 40px;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #116466;
+    color: #ffcb9a;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.21);
+}
+form {
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+}
+input, textArea, select {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    font: 20px arial;
+    border: none;
+    resize: none;
+    background-color: #116466;
+    color: #ffcb9a;
+    box-sizing: border-box;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.21);
+}
+input:focus, textArea:focus, select:focus {
+    border: 1px solid #ffcb9a;
+}
+input[type="submit"] {
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.21);
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ffcb9a;
+    color: #ffcb9a;
+    white-space: nowrap;
+}
+td a {
+    display: block;
+    padding: 11px;
+    margin: -11px;
+    text-decoration: none;
+    color: inherit;
+}
+tr:nth-child(odd) {
+    background-color: #116466;
+}
+tr:hover td a{
+    color: #d1e8e2;
+}
